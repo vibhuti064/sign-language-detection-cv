@@ -1,5 +1,6 @@
 
 # Sign Language Detection (CV Project)
+![Inference Demo](https://github.com/vibhuti064/sign-language-detection-cv/blob/main/ASL_Alphabet.jpg)
 
 ## Project title
 *Sign Language Detection (Computer Vision)*

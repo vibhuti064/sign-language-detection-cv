@@ -6,6 +6,15 @@
 
 ## Overview of the project
 ![Demo](https://github.com/vibhuti064/sign-language-detection-cv/blob/main/ScreenRecording2025-11-21233717-ezgif.com-crop.gif)
+
+
+
+
+
+
+
+
+
 This project uses MediaPipe hand landmarks + OpenCV to capture hand sign images, create a dataset of normalized hand landmarks, train a RandomForest classifier on those landmarks, and run real-time predictions with the webcam.
 
 The workflow:

@@ -21,9 +21,9 @@ This project uses MediaPipe hand landmarks + OpenCV to capture hand sign images,
 The workflow:
 1. Capture images for each sign using the webcam (collect_imgs.py).
    
-## Demo video
-Watch the full demo on how to capture the data :
-https://drive.google.com/file/d/1Q4d-tTJtkU5jnwB-6m7SN8JmQUEBnS0w/view?usp=sharing
+    ## Demo video
+    Watch the full demo on how to capture the data :
+    https://drive.google.com/file/d/1Q4d-tTJtkU5jnwB-6m7SN8JmQUEBnS0w/view?usp=sharing
 
 2. Convert images to landmark-based dataset (create_dataset.py → data.pickle).
 3. Train a classifier (train_classifier.py) and save the model (model.p).

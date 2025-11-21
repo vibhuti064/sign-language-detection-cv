@@ -1,0 +1,35 @@
+# Python cache
+_pycache_/
+*.py[cod]
+*.pyo
+*.pyd
+
+# virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data and large model files (ignored here)
+data/
+*.h5
+*.pt
+*.pth
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.onnx
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

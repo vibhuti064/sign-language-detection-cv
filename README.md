@@ -50,11 +50,36 @@ The workflow:
 ## Steps to install & run the project
 
 ### Setup (Windows PowerShell)
-```powershell
-# create and activate venv (recommended)
-python -m venv venv
-.\venv\Scripts\Activate.ps1
+### Prerequisites
 
-# install dependencies
-pip install --upgrade pip
-pip install -r requirements.txt
+1.  Ensure you have **Python 3.9 - 3.12** installed.
+2.  Your project folder must contain the following files: `collect_imgs.py`, `create_dataset.py`, `train_classifier.py`, `inference_classifier.py`, and the entire `data` directory with your images.
+
+### Installation
+
+1.  **Activate Virtual Environment:** Open your terminal and activate your virtual environment.
+    ```bash
+    .\venv\Scripts\activate
+    ```
+2.  **Install Dependencies:** Install the required Python libraries.
+    ```bash
+    pip install mediapipe opencv-python scikit-learn numpy
+    ```
+
+### Running the Classifier
+
+1.  **Train the Model:** Run the training script (this will generate the `model.p` file).
+    ```bash
+    python .vscode\train_classifier.py
+    ```
+2.  **Start Real-Time Inference:** Run the final script to open the webcam and start detection.
+    ```bash
+    python .vscode\inference_classifier.py
+    ```
+
+## ✅ Instructions for Testing
+
+1.  Run the inference script as described above.
+2.  Hold your hand steady, ensuring it is well-lit and clearly visible to the camera.
+3.  Perform the 10 trained ISL gestures one by one. The corresponding letter should be displayed in the bounding box around your hand.
+4.  To close the camera feed and stop the program, click on the camera window and press the **'q' key**.

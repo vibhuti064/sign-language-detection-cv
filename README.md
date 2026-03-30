@@ -67,10 +67,10 @@ KNN: 100%
 
 ## 📂 Project Structure
 .
-├── collect_imgs.py          # Data collection
-├── create_dataset.py        # Feature extraction & dataset creation
-├── train_classifier.py      # Model training & evaluation
-├── inference_classifier.py  # Real-time prediction
+├── collect_imgs.py          
+├── create_dataset.py        
+├── train_classifier.py      
+├── inference_classifier.py 
 ├── requirements.txt
 └── README.md
 

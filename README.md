@@ -71,7 +71,9 @@ KNN: 100%
 ├── create_dataset.py        
 ├── train_classifier.py      
 ├── inference_classifier.py 
+
 ├── requirements.txt
+
 └── README.md
 
 ## ⚙️ Setup & Installation

@@ -80,6 +80,7 @@ KNN: 100%
 🔹 Prerequisites
 Python 3.9 – 3.12
 Webcam access
+
 🔹 Installation
 .\venv\Scripts\activate
 pip install mediapipe opencv-python scikit-learn numpy matplotlib
@@ -117,6 +118,7 @@ Improve robustness for real-world scenarios
 Deploy as web/mobile application
 
 👤 Author
+
 Vibhuti Purohit
 
 ⭐ If you found this project useful, consider giving it a star!
